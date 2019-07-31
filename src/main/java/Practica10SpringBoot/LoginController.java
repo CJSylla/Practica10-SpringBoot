@@ -10,10 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
 
-/**
- * Created by Dany 13/10/2017
- */
-
 @Controller()
 @RequestMapping("/login")
 public class LoginController {

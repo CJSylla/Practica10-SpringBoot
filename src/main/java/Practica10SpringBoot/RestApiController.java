@@ -13,12 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- *
- * Created by Dany 13/10/2017
- */
-
-
 @RestController
 public class RestApiController {
 

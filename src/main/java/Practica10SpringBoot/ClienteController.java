@@ -20,9 +20,7 @@ import java.io.FileOutputStream;
 import java.nio.file.Paths;
 import java.util.List;
 
-/**
- *  Created by Dany 13/10/2017
- */
+
 @Controller()
 @RequestMapping("/clientes")
 public class ClienteController {
