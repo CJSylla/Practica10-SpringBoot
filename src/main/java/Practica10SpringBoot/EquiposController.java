@@ -1,10 +1,10 @@
 package Practica10SpringBoot;
 
-import com.pucmm.edu.practica11.entidades.Equipo;
-import com.pucmm.edu.practica11.entidades.SubFamilia;
-import com.pucmm.edu.practica11.servicios.EquipoServices;
-import com.pucmm.edu.practica11.servicios.FamiliaServices;
-import com.pucmm.edu.practica11.servicios.SubFamiliaServices;
+import Practica10SpringBoot.entidades.Equipo;
+import Practica10SpringBoot.entidades.SubFamilia;
+import Practica10SpringBoot.servicios.EquipoServices;
+import Practica10SpringBoot.servicios.FamiliaServices;
+import Practica10SpringBoot.servicios.SubFamiliaServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,9 +23,7 @@ import java.nio.file.Paths;
 import java.util.List;
 
 
-/**
- *  Created by Dany 13/10/2017
- */
+
 @Controller()
 @RequestMapping("/equipos")
 public class EquiposController {

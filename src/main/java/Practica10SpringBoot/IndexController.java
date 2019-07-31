@@ -1,8 +1,8 @@
 package Practica10SpringBoot;
 
 
-import com.pucmm.edu.practica11.entidades.*;
-import com.pucmm.edu.practica11.servicios.*;
+import Practica10SpringBoot.entidades.*;
+import Practica10SpringBoot.servicios.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,9 +13,6 @@ import javax.servlet.http.HttpSession;
 import java.security.Principal;
 import java.util.List;
 
-/**
- * Created by Dany 13/10/2017
- */
 
 @Controller()
 @RequestMapping("/")

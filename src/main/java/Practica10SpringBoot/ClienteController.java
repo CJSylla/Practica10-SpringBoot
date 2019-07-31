@@ -1,8 +1,8 @@
 package Practica10SpringBoot;
 
 
-import com.pucmm.edu.practica11.entidades.Cliente;
-import com.pucmm.edu.practica11.servicios.ClienteServices;
+import Practica10SpringBoot.entidades.Cliente;
+import Practica10SpringBoot.servicios.ClienteServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;

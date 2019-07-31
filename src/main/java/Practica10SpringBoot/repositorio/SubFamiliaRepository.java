@@ -1,8 +1,8 @@
 package Practica10SpringBoot.repositorio;
 
 
-import com.pucmm.edu.practica11.entidades.Familia;
-import com.pucmm.edu.practica11.entidades.SubFamilia;
+import Practica10SpringBoot.entidades.Familia;
+import Practica10SpringBoot.entidades.SubFamilia;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

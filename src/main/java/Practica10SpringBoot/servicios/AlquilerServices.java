@@ -1,9 +1,9 @@
 package Practica10SpringBoot.servicios;
 
 
-import com.pucmm.edu.practica11.entidades.Alquiler;
-import com.pucmm.edu.practica11.entidades.Factura;
-import com.pucmm.edu.practica11.repositorio.AlquilerRepository;
+import Practica10SpringBoot.entidades.Alquiler;
+import Practica10SpringBoot.entidades.Factura;
+import Practica10SpringBoot.repositorio.AlquilerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

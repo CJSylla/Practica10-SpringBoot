@@ -1,8 +1,8 @@
 package Practica10SpringBoot.repositorio;
 
 
-import com.pucmm.edu.practica11.entidades.Cliente;
-import com.pucmm.edu.practica11.entidades.Factura;
+import Practica10SpringBoot.entidades.Cliente;
+import Practica10SpringBoot.entidades.Factura;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

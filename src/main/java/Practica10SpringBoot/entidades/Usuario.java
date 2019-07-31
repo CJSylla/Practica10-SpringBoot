@@ -1,5 +1,7 @@
 package Practica10SpringBoot.entidades;
 
+import Practica10SpringBoot.entidades.Rol;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

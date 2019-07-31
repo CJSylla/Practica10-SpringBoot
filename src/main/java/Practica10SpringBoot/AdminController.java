@@ -1,13 +1,13 @@
 package Practica10SpringBoot;
 
-import com.pucmm.edu.practica11.entidades.Familia;
-import com.pucmm.edu.practica11.entidades.Rol;
-import com.pucmm.edu.practica11.entidades.SubFamilia;
-import com.pucmm.edu.practica11.entidades.Usuario;
-import com.pucmm.edu.practica11.servicios.FamiliaServices;
-import com.pucmm.edu.practica11.servicios.RolServices;
-import com.pucmm.edu.practica11.servicios.SubFamiliaServices;
-import com.pucmm.edu.practica11.servicios.UsuarioServices;
+import Practica10SpringBoot.entidades.Familia;
+import Practica10SpringBoot.entidades.Rol;
+import Practica10SpringBoot.entidades.SubFamilia;
+import Practica10SpringBoot.entidades.Usuario;
+import Practica10SpringBoot.servicios.FamiliaServices;
+import Practica10SpringBoot.servicios.RolServices;
+import Practica10SpringBoot.servicios.SubFamiliaServices;
+import Practica10SpringBoot.servicios.UsuarioServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.security.access.annotation.Secured;
@@ -22,9 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 
-/**
- *  Created by Dany 13/10/2017
- */
+
 @Controller()
 @RequestMapping("/zona_admin")
 public class AdminController {
@@ -47,7 +45,7 @@ public class AdminController {
     @RequestMapping("/")
     public String verUsuarios(Model model){
 
-        ArrayList<Usuario>usuarios = new ArrayList<>();
+        ArrayList<Usuario> usuarios = new ArrayList<>();
         for(Usuario usuario: usuarioServices.todosUsuarios()){
             usuario.setRoles(rolServices.rolesUsuario(usuario.getUsername()));
             usuarios.add(usuario);

@@ -2,9 +2,9 @@ package Practica10SpringBoot;
 
 
 import com.google.gson.Gson;
-import com.pucmm.edu.practica11.entidades.Cliente;
-import com.pucmm.edu.practica11.entidades.Familia;
-import com.pucmm.edu.practica11.servicios.*;
+import Practica10SpringBoot.entidades.Cliente;
+import Practica10SpringBoot.entidades.Familia;
+import Practica10SpringBoot.servicios.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

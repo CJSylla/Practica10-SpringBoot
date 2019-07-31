@@ -1,7 +1,7 @@
 package Practica10SpringBoot;
 
 
-import com.pucmm.edu.practica11.servicios.UsuarioServices;
+import Practica10SpringBoot.servicios.UsuarioServices;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

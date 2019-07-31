@@ -1,10 +1,10 @@
 package Practica10SpringBoot;
 
-import com.pucmm.edu.practica11.entidades.Alquiler;
-import com.pucmm.edu.practica11.entidades.Cliente;
-import com.pucmm.edu.practica11.entidades.Equipo;
-import com.pucmm.edu.practica11.entidades.Factura;
-import com.pucmm.edu.practica11.servicios.*;
+import Practica10SpringBoot.entidades.Alquiler;
+import Practica10SpringBoot.entidades.Cliente;
+import Practica10SpringBoot.entidades.Equipo;
+import Practica10SpringBoot.entidades.Factura;
+import Practica10SpringBoot.servicios.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,9 +21,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Dany on 15/10/2017.
- */
+
 @Controller()
 @RequestMapping("/alquileres")
 public class AlquilerController {

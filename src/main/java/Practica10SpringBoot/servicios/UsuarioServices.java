@@ -2,9 +2,9 @@ package Practica10SpringBoot.servicios;
 
 
 
-import com.pucmm.edu.practica11.entidades.Rol;
-import com.pucmm.edu.practica11.entidades.Usuario;
-import com.pucmm.edu.practica11.repositorio.UsuarioRepository;
+import Practica10SpringBoot.entidades.Rol;
+import Practica10SpringBoot.entidades.Usuario;
+import Practica10SpringBoot.repositorio.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

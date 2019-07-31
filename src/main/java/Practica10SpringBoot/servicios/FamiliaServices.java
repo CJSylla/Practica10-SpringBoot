@@ -1,8 +1,7 @@
 package Practica10SpringBoot.servicios;
 
-
-import com.pucmm.edu.practica11.entidades.Familia;
-import com.pucmm.edu.practica11.repositorio.FamiliaRepository;
+import Practica10SpringBoot.entidades.Familia;
+import Practica10SpringBoot.repositorio.FamiliaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

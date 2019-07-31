@@ -1,7 +1,7 @@
 package Practica10SpringBoot.repositorio;
 
 
-import com.pucmm.edu.practica11.entidades.Rol;
+import Practica10SpringBoot.entidades.Rol;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

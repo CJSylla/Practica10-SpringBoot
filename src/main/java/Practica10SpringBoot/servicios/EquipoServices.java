@@ -1,8 +1,8 @@
 package Practica10SpringBoot.servicios;
 
 
-import com.pucmm.edu.practica11.entidades.Equipo;
-import com.pucmm.edu.practica11.repositorio.EquipoRepository;
+import Practica10SpringBoot.entidades.Equipo;
+import Practica10SpringBoot.repositorio.EquipoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
