@@ -45,10 +45,10 @@ public class UsuarioServices {
         List<Usuario> usuarios = usuarioRepository.findAllByUsername("admin");
         if(usuarios.size()<1){
             Usuario usuario =  new Usuario();
-            usuario.setApellido("Admin");
-            usuario.setNombre("Administrador");
-            usuario.setUsername("admin");
-            usuario.setPassword(bCryptPasswordEncoder.encode("admin"));
+            usuario.setApellido("Sylla");
+            usuario.setNombre("Claude");
+            usuario.setUsername("CJSylla");
+            usuario.setPassword(bCryptPasswordEncoder.encode("123456"));
             Rol rol = new Rol();
             rol.setRol("ROLE_ADMIN");
             List<Rol> roles = new ArrayList<>();
