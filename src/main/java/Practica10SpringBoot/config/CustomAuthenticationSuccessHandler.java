@@ -1,7 +1,5 @@
 package Practica10SpringBoot.config;
-/**
- * Created by Dany on 27/09/2017.
- */
+
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;

@@ -11,11 +11,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-/**
- * Created by Dany 08/10/2017
- */
-
-
 @Configurable
 @EnableGlobalMethodSecurity(securedEnabled = true)
 public class ConfiguracionSeguridad extends WebSecurityConfigurerAdapter {
