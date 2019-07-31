@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">Practica 11</a>
+        <a class="navbar-brand" href="index.html">Practica Spring Boot</a>
     </div>
     <!-- /.navbar-header -->
 
