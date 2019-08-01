@@ -33,7 +33,7 @@
 </head>
 
 <body>
-
+<div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg'); background-repeat: no-repeat; background-position: center; height: 100%;">
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
@@ -64,6 +64,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!-- jQuery -->
         <script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>

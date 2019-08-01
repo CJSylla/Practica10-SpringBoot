@@ -34,6 +34,7 @@
 
     <div class="navbar-default sidebar" role="navigation">
         <div class="sidebar-nav navbar-collapse">
+            <div class="sidebar-background" style="background-image: url(../assets/img/sidebar-2.jpg)">
             <ul class="nav" id="side-menu">
                 <li class="sidebar-search">
                     <div class="input-group custom-search-form">
@@ -46,9 +47,7 @@
                     </div>
                     <!-- /input-group -->
                 </li>
-                <li>
-                    <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-                </li>
+
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
@@ -61,12 +60,7 @@
                     </ul>
                     <!-- /.nav-second-level -->
                 </li>
-                <li>
-                    <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
-                </li>
-                <li>
-                    <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
-                </li>
+
 
                 <li>
                     <a href="#"><i class="fa fa-sitemap fa-fw"></i><@spring.message "equipo" /><span class="fa arrow"></span></a>
@@ -144,4 +138,5 @@
         <!-- /.sidebar-collapse -->
     </div>
     <!-- /.navbar-static-side -->
+    </div>
 </nav>
